@@ -4,11 +4,13 @@ This is a reverse proxy for NextBus (http://www.nextbus.com/xmlFeedDocs/NextBusX
 It uses semantic knowledge base at the backend, with the support of an ontology and SPARQL.
 
 ### Software Required:
-Requests: 
+#### Requests: 
 $ sudo pip install requests
-rdflib:
+
+#### rdflib:
 $ sudo pip install rdflib
-bottle:
+
+#### bottle:
 $ sudo pip install bottle
 
 ## Run:
