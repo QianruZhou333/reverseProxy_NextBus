@@ -38,12 +38,6 @@ class TestRP():
 
  #   @get('/listAgency')
     def listAgency(self):
-#        requests.get("http://127.0.0.1").elapsed.total_seconds()
-#        nf = urllib.urlopen('http://webservices.nextbus.com/service/publicXMLFeed?command=agencyList')
-#        start = time.time()
-#        page = nf.read()
-#        end = time.time()
-#        nf.close()
         url = 'http://webservices.nextbus.com/service/publicXMLFeed?command=agencyList'
         r = requests.get(str(url))
         now = time.time()
