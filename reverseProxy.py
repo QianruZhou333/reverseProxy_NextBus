@@ -12,7 +12,7 @@ class TestRP():
     def __init__(self):
         self.g = Graph()
         self.n = Namespace('http://home.eps.hw.ac.uk/~qz1/')
-        self.file_abs = '/Users/silvia/Documents/code/reverseProxy/db/knowledgeBase.rdf'
+        self.file_abs = '/Users/silvia/Documents/code/reverseProxy/db/knowledgeBase.ttl'
         self.clearGraph()
         self.getGraph()
         #self.run()
