@@ -1,0 +1,39 @@
+@prefix ns1: <http://home.eps.hw.ac.uk/~qz1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:query1511471084.53 a ns1:Query ;
+    ns1:hasURL "http://webservices.nextbus.com/service/publicXMLFeed?command=agencyList"^^xsd:string ;
+    ns1:takesTime "0.434237"^^xsd:float .
+
+@prefix ns1: <http://home.eps.hw.ac.uk/~qz1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:query1511471085.15 a ns1:Query ;
+    ns1:hasURL "http://webservices.nextbus.com/service/publicXMLFeed?command=routeList&a=ecu"^^xsd:string ;
+    ns1:takesTime "0.523815"^^xsd:float .
+
+@prefix ns1: <http://home.eps.hw.ac.uk/~qz1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:query1511471085.76 a ns1:Query ;
+    ns1:hasURL "http://webservices.nextbus.com/service/publicXMLFeed?command=routeConfig&a=ecu&r=507"^^xsd:string ;
+    ns1:takesTime "0.593672"^^xsd:float .
+
+@prefix ns1: <http://home.eps.hw.ac.uk/~qz1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:query1511471086.37 a ns1:Query ;
+    ns1:hasURL "http://webservices.nextbus.com/service/publicXMLFeed?command=predictions&a=ecu&stopId=chrisgym&routerTag=507"^^xsd:string ;
+    ns1:takesTime "0.574047"^^xsd:float .
